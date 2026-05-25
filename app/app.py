@@ -14,7 +14,7 @@ try:
     from tf_keras.preprocessing.image import img_to_array
 except ImportError:
     from keras.models import load_model
-    from keras.preprocessing.image import img_to_array
+    from tensorflow.keras.preprocessing.image import img_to_array
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
