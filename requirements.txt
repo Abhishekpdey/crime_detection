@@ -1,6 +1,6 @@
 Flask==2.3.3
-tensorflow
-opencv-python-headless
+tensorflow-cpu==2.18.1
+opencv-python-headless==4.10.0.84
 requests==2.32.4
-streamlink
-tf_keras
+streamlink==7.0.0
+tf_keras==2.18.1
